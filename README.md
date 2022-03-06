@@ -2,7 +2,7 @@
 
 ## Author: Abedalqader Alkhatib
 
-- [Pull Request]() 
+- [Pull Request](https://github.com/alkhatib99/math-series/pull/1) 
 
 ### Set it up
 
