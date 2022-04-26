@@ -10,7 +10,6 @@ def lucas_recursion(n):
     
 
     """
-    #base cases
     if n == 0:
         return 2
     elif n == 1:
@@ -40,19 +39,6 @@ def fibonanci(n):
     this function to calculate fibonacci series 
 
    n= the number that we need to calculate fibonacci seris to it 
-    Input : an integer value  nth number in series presume starting at zero 
-        4
-    Output: fibonanci(4)  -->         fibonanci(3)          +  fibonanci(2)
-                          --> (fibonanci(2) + fibonanci(1)) +  fibonanci(2)
-                          -->  ( 1          +      1      ) +     1
-  
-        0,1,1,2
-     
-    Input  : n = 2
-    Output : 1
-
-    Input  : n = 9
-    Output : 34
     """                  
     if n<=1:
         return n
@@ -69,8 +55,6 @@ def sum_series(n, n2=0 ,n3=1) :
     n3 ==> the index number 2 for this series 
 """   
 
-    #  the base
-        # if n2 == 0 and n3 == 1 :
     if n <=0 : 
          return 'plese the number must more than 0'
     elif n == 1 :
