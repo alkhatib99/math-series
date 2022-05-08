@@ -1,9 +1,6 @@
-from mimetypes import init
-
 
 def lucas_recursion(n):
-    """
-    The Lucas Numbers are a related series of integers that start with the values 2 
+    """The Lucas Numbers are a related series of integers that start with the values 2 
     and 1 rather than 0 and 1.
     n= the number that we need to calculate lucas seris to it 
 
@@ -19,9 +16,7 @@ def lucas_recursion(n):
     
 def lucas_loop(n):
 
-    """
-
-        this function to calculate lucas series 
+    """This function to calculate lucas series 
 n= the number that we need to calculate lucas seris to it 
     """
     a, b = 2, 1
@@ -35,15 +30,19 @@ n= the number that we need to calculate lucas seris to it
     
 
 def fibonanci(n):
-    """
-    this function to calculate fibonacci series 
-
+    """This function to calculate fibonacci series 
    n= the number that we need to calculate fibonacci seris to it 
     """                  
-    if n<=1:
-        return n
+    if n == 0:
+        return 0
+ 
+    # Check if n is 1,2
+    # it will return 1
+    elif n == 1 or n == 2:
+        return 1
+ 
     else:
-        return (fibonanci(n-1)+fibonanci(n-2))
+        return fibonanci(n-1) + fibonanci(n-2)
       
 
 

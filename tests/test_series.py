@@ -1,20 +1,18 @@
 from math_series import __version__
 from math_series.series import *
-def test_version():
-    assert __version__ == '0.1.0'
 
 def test_1(): 
-    expected = 21
+    expected = 34
     actual = fibonanci(9) 
     assert expected == actual 
 
 def test_2(): 
-    expected = 13
+    expected = 21
     actual = fibonanci(8)
     assert expected == actual
 
 def test_3(): 
-    expected = 0
+    expected = 1
     actual = fibonanci(1)
     assert expected == actual
 
@@ -23,7 +21,7 @@ def test_4():
     actual = fibonanci(2)
     assert expected == actual 
 def test_0(): 
-    expected = 'plese the number must more than 0'
+    expected = 0
     actual = fibonanci(0)
     assert expected == actual
 
@@ -40,23 +38,19 @@ def test_2_1():
     assert expected == actual 
 
 def test_2_2(): 
-    expected = 1
+    expected = 3
     actual = lucas_recursion(2)
     assert expected == actual
 
 def test_2_3(): 
-    expected = 4
+    expected = 7
     actual = lucas_recursion(4)
     assert expected == actual
 
 def test_2_4(): 
-    expected = 7
+    expected = 11
     actual = lucas_recursion(5)
     assert expected == actual 
-def test_2_5(): 
-    expected = 'plese the number must more than 0'
-    actual = lucas_recursion(0)
-    assert expected == actual
 
 
 #  test for sum_series
